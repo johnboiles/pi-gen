@@ -1,3 +1,12 @@
+Build a WebMCP image with
+
+```
+echo "IMG_NAME='MaslowPi'" > config
+touch ./stage3/SKIP ./stage4/SKIP
+touch ./stage4/SKIP_IMAGES
+./build-docker.sh
+```
+
 # pi-gen
 
 _Tool used to create the raspberrypi.org Raspbian images_
